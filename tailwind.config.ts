@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      dropShadow: {
+        'strong-w': '0 1px 10px rgba(255, 255, 255, 1)',
+        'strong-b': '0 1px 15px rgba(0, 0, 0, 0.75)',
+        
+      },
     },
   },
   plugins: [],
