@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <div className=' w-full flex justify-between py-2 px-4 pt-3'>
+    <div className='w-full flex justify-between py-2 px-4 pt-3'>
         <div className='gap-8 flex flex-row items-center'>
             <Image
             src='/realmlogo.svg'
@@ -13,9 +13,9 @@ const Navbar = () => {
             width={40}
             height={40}
             />
-            <button className='font-semibold text-sm'>Personal</button>
-            <button className='font-semibold text-sm'>Products</button>
-            <button className='font-semibold text-sm'>Get the app</button>
+            <button className='font-semibold text-sm'>Flavors</button>
+            <button className='font-semibold text-sm'>Our Story</button>
+            <button className='font-semibold text-sm'>Shop</button>
             
         </div>
         <div className='gap-2 flex flex-row items-center'>
@@ -28,10 +28,9 @@ const Navbar = () => {
               Log in
             </button>
             <button
-            className='text-white text-sm font-bold px-6 py-3
-             bg-blue-700 rounded rounded-full'
+            className='text-white text-sm font-bold px-6 py-3 bg-amber-700 rounded rounded-full'
             >
-            Get started
+            Order now
             </button>
         </div>
     </div>
